@@ -1,5 +1,7 @@
+import { Injectable } from '@nestjs/common'
 import { readFile, writeFile } from 'fs/promises'
 
+@Injectable()
 export class MessagesRepository{
     async findOne(id:string){
         try {
@@ -33,7 +35,7 @@ export class MessagesRepository{
                 message
             })
 
-            await writeFile('messages.json',JSON.stringify(data))
+            await writeFile('messages.json', JSON.stringify(data))
         } catch (error) {
             console.log(error)
         }

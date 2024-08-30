@@ -1,11 +1,1 @@
-[
-    {
-        "id":"1",
-        "message":"Hello world"
-    },
-
-    {
-        "id":"2",
-        "message":"Hello moto"
-    }
-]
+[{"id":"1","message":"Hello world"},{"id":"2","message":"Hello moto"},{"id":"790e5300-8afc-47ee-9dda-1fbb52752710","message":"Hello OnePixel"}]
